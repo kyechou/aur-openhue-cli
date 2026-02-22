@@ -1,7 +1,7 @@
 # Maintainer: Kuan-Yen Chou <kuanyenchou@gmail.com>
 
 pkgname=openhue-cli
-pkgver=0.22.1
+pkgver=0.23
 pkgrel=1
 pkgdesc='CLI for interacting with Philips Hue smart lighting systems'
 depends=()
@@ -12,7 +12,7 @@ url='https://www.openhue.io/cli/openhue-cli'
 license=('Apache-2.0')
 provides=('openhue')
 source=("https://github.com/openhue/openhue-cli/archive/refs/tags/$pkgver.tar.gz")
-sha256sums=('fb565545dde82ea1a4e5e227259a7a14d66e228f317497c13908d807c6635a84')
+sha256sums=('9f21640f4a95ddb0b07e46102c8dcb1abc1f835fead59cb906d107de81b5b08b')
 
 build() {
     export CGO_CPPFLAGS="${CPPFLAGS}"
